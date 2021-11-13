@@ -13,6 +13,9 @@
     text-transform: capitalize;
     transition: all .2s linear;
 }
+.fa-telegram, .fa-skype {
+    color: #f9ca24;
+}
 
 .selection{
     background:var(--yellow);
@@ -66,7 +69,20 @@ section{
 .heading span{
     color:var(--yellow);
 }
-
+.counter1{
+    height: 50vh;
+}
+.counter .box {
+    border-radius: 2rem;
+}
+.box p {
+    font-size: 2rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+}
 header{
     position: fixed;
     top:0; left:0;
@@ -187,7 +203,7 @@ header .navbar ul li a:hover{
 }
 
 .about .row .counter .box{
-    width:20rem;
+    width:40rem;
     background:#222;
     text-align: center;
     padding: 2rem;
