@@ -169,10 +169,10 @@ header .navbar ul li a:hover{
 
 .about .row{
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
     flex-wrap: wrap;
-    padding:1rem 0;
+    padding:2rem 0;
     color: white;
     font-size: 2rem;
     
@@ -194,31 +194,36 @@ header .navbar ul li a:hover{
     color:white;
     padding:0.5rem;
 }
-
-.about .row .counter{
-    flex:1 1 48rem;
+/*  */
+.about .counter1{
     display: flex;
+    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    padding:0rem 0;
+    color: var(--yellow);
+    font-size: 2rem;
+    
 }
 
-.about .row .counter .box{
-    width:40rem;
-    background:#222;
-    text-align: center;
-    padding: 2rem;
-    margin:2rem;
+.about .counter1 .box1{
+    padding:2rem 1rem;
+    padding-left: 3rem;
 }
 
-.about .row .counter .box span{
+.about .counter1 .box1 p{
     font-size: 4rem;
     color:var(--yellow);
+    padding:0.5rem 0;
+    font-weight: normal;
 }
 
-.about .row .counter .box h3{
-    font-size: 2rem;
-    color:#fff;
+.about .counter1 .box1 h3 span{
+    color:white;
+    padding:6rem;
 }
+/*  */
+
 
 
 .education .box-container{
@@ -364,8 +369,6 @@ header .navbar ul li a:hover{
     z-index: 100;
     display: none;
 }
-
-
 
 @media (max-width:1200px){
 
